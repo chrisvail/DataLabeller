@@ -6,6 +6,17 @@
     "main"
   ],
   "permissions": [
-    "core:default"
+    "core:default",
+    "dialog:default",
+    {
+        "identifier": "fs:default",
+        "allow": [
+            "read",
+            "write",
+            "copy",
+            "createFile",
+            "createDir"
+        ]
+    }
   ]
 }
